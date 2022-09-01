@@ -1,0 +1,327 @@
+1661530660804	geckodriver	INFO	Listening on 127.0.0.1:64758
+1661530663862	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64759" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofilejH7yTj"
+1661530664602	Marionette	INFO	Marionette enabled
+1661530664609	Marionette	INFO	Listening on port 64769
+WebDriver BiDi listening on ws://localhost:64759
+Read port: 64769
+1661530664789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1661530774291	geckodriver	INFO	Listening on 127.0.0.1:65130
+1661530777356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofileV2KhgB"
+1661530777841	Marionette	INFO	Marionette enabled
+1661530777849	Marionette	INFO	Listening on port 65140
+WebDriver BiDi listening on ws://localhost:65131
+Read port: 65140
+1661530778017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofileV2KhgB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65131/devtools/browser/934db83a-eeb7-4604-8977-b7f6f3cb6e9a
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1661531046360	Marionette	INFO	Stopped listening on port 65140
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661531049935	geckodriver	INFO	Listening on 127.0.0.1:65291
+1661531052988	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65292" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofileY6Z2cY"
+1661531053456	Marionette	INFO	Marionette enabled
+1661531053460	Marionette	INFO	Listening on port 65301
+WebDriver BiDi listening on ws://localhost:65292
+Read port: 65301
+1661531053615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofileY6Z2cY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65292/devtools/browser/2f965632-de88-423c-8b4b-409455a69035
+1661531084849	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1004))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 956))
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:956:7
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+setNodeFront@resource://devtools/client/framework/selection.js:206:10
+onDetached@resource://devtools/client/inspector/inspector.js:1678:20
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new Error("Can not send request 'getUniqueSelector' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 30))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967298/pagestyle23 (resource://devtools/server/actors/page-style.js:1004:5)", "resource://devtools/shared/protocol/Front.js", 376))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1004))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967298/pagestyle23 (resource://devtools/server/actors/page-style.js:1004:5)", "resource://devtools/shared/protocol/Front.js", 376))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1661531818838	Marionette	INFO	Stopped listening on port 65301
+[Parent 18200, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1661531820904	geckodriver	INFO	Listening on 127.0.0.1:49198
+1661531823958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49199" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofileGJwfOi"
+1661531824413	Marionette	INFO	Marionette enabled
+1661531824418	Marionette	INFO	Listening on port 49208
+WebDriver BiDi listening on ws://localhost:49199
+Read port: 49208
+1661531824601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofileGJwfOi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49199/devtools/browser/28516ad6-4c6f-4732-ace8-6919542e2828
+1661531900344	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: "Failed to create DevTools Frame target for browsingContext" 4294967305 ": " (new AbortError("Actor 'DevToolsFrame' destroyed before query 'DevToolsFrameParent:instantiate-already-available' was resolved", (void 0))) ""
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:99:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:188:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:710:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:756:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:637:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 99, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 99))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _sendRequestBody@resource://devtools/server/actors/network-monitor/network-observer.js:1421:7
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:555:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:667:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1421, column: 7
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1421))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1018:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:558:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:667:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1018, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1018))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:99:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:188:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:710:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:338:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 99, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 99))
+console.error: "Unable to find target with innerWindowId:4294967330"
+console.error: "Unable to find target with innerWindowId:4294967330"
+console.error: "Unable to find target with innerWindowId:4294967327"
+console.error: "Unable to find target with innerWindowId:4294967327"
+console.error: "Unable to find target with innerWindowId:4294967334"
+console.error: "Unable to find target with innerWindowId:4294967334"
+console.error: "Unable to find target with innerWindowId:4294967331"
+console.error: "Unable to find target with innerWindowId:4294967331"
+console.error: "Unable to find target with innerWindowId:4294967338"
+console.error: "Unable to find target with innerWindowId:4294967338"
+console.error: "Unable to find target with innerWindowId:4294967335"
+console.error: "Unable to find target with innerWindowId:4294967335"
+console.error: "Unable to find target with innerWindowId:4294967342"
+console.error: "Unable to find target with innerWindowId:4294967342"
+console.error: "Unable to find target with innerWindowId:4294967339"
+console.error: "Unable to find target with innerWindowId:4294967339"
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1004))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967343/pagestyle29 (resource://devtools/server/actors/page-style.js:1004:5)", "resource://devtools/shared/protocol/Front.js", 376))
+console.error: "Unable to find target with innerWindowId:4294967346"
+console.error: "Unable to find target with innerWindowId:4294967346"
+console.error: "Unable to find target with innerWindowId:4294967343"
+console.error: "Unable to find target with innerWindowId:4294967343"
+console.error: "Unable to find target with innerWindowId:4294967350"
+console.error: "Unable to find target with innerWindowId:4294967350"
+console.error: "Unable to find target with innerWindowId:4294967347"
+console.error: "Unable to find target with innerWindowId:4294967347"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 569))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1004))
+console.error: "Exception while getting unique selector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967351/domnode227, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\n_create/<@resource://devtools/client/inspector/rules/views/rule-editor.js:208:72\n_create@resource://devtools/client/inspector/rules/views/rule-editor.js:221:20\nRuleEditor@resource://devtools/client/inspector/rules/views/rule-editor.js:80:8\n_createEditors@resource://devtools/client/inspector/rules/rules.js:1346:23\n_populate/<@resource://devtools/client/inspector/rules/rules.js:1126:37\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967351/pagestyle29 (resource://devtools/server/actors/page-style.js:569:5)", "resource://devtools/shared/protocol/Front.js", 376))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967351/pagestyle29 (resource://devtools/server/actors/page-style.js:1004:5)", "resource://devtools/shared/protocol/Front.js", 376))
+console.error: "Unable to find target with innerWindowId:4294967351"
+console.error: "Unable to find target with innerWindowId:4294967351"
+console.error: "Unable to find target with innerWindowId:4294967358"
+console.error: "Unable to find target with innerWindowId:4294967358"
+console.error: "Unable to find target with innerWindowId:4294967355"
+console.error: "Unable to find target with innerWindowId:4294967355"
+console.error: "Unable to find target with innerWindowId:4294967362"
+console.error: "Unable to find target with innerWindowId:4294967362"
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.error: "Unable to find target with innerWindowId:4294967366"
+console.error: "Unable to find target with innerWindowId:4294967366"
+console.error: "Unable to find target with innerWindowId:4294967363"
+console.error: "Unable to find target with innerWindowId:4294967363"
+console.error: "Unable to find target with innerWindowId:4294967370"
+console.error: "Unable to find target with innerWindowId:4294967370"
+console.error: "Unable to find target with innerWindowId:4294967367"
+console.error: "Unable to find target with innerWindowId:4294967367"
+console.error: "Unable to find target with innerWindowId:4294967374"
+console.error: "Unable to find target with innerWindowId:4294967374"
+console.error: "Unable to find target with innerWindowId:4294967371"
+console.error: "Unable to find target with innerWindowId:4294967371"
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 455: NS_ERROR_MALFORMED_URI: Couldn't build a valid uri
+1661534884411	Marionette	INFO	Stopped listening on port 49208
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendor.f05d3bb8.js, line 82: TypeError: can't access dead object
+[Parent 11340, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1661689439212	geckodriver	INFO	Listening on 127.0.0.1:61987
+1661689442252	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofileJcqHiM"
+1661689443011	Marionette	INFO	Marionette enabled
+1661689443021	Marionette	INFO	Listening on port 61997
+WebDriver BiDi listening on ws://localhost:61988
+Read port: 61997
+1661689443212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofileJcqHiM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61988/devtools/browser/11b8038a-644f-45a7-b6d4-1aa5cc88274e
+1661689449291	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1661689457705	Marionette	INFO	Stopped listening on port 61997
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661689467255	geckodriver	INFO	Listening on 127.0.0.1:62045
+1661689470300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62046" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofiledmAxJC"
+1661689470790	Marionette	INFO	Marionette enabled
+1661689470797	Marionette	INFO	Listening on port 62055
+WebDriver BiDi listening on ws://localhost:62046
+Read port: 62055
+1661689470975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofiledmAxJC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62046/devtools/browser/e9530307-1ca2-449c-b0f8-8f3219e22278
+1661689503937	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1661690883342	Marionette	INFO	Stopped listening on port 62055
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendor.f05d3bb8.js, line 82: TypeError: can't access dead object
+[Parent 12448, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 12448, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1661969306186	geckodriver	INFO	Listening on 127.0.0.1:59501
+1661969309233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59502" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofilesF4sQJ"
+1661969310047	Marionette	INFO	Marionette enabled
+1661969310054	Marionette	INFO	Listening on port 59512
+WebDriver BiDi listening on ws://localhost:59502
+Read port: 59512
+1661969310318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NIS\\AppData\\Local\\Temp\\rust_mozprofilesF4sQJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59502/devtools/browser/5fe15fb0-d802-4c19-aac1-ddab5e336228
+1661969319634	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 1266: TypeError: shadowRoot is null
+1661969948081	Marionette	INFO	Stopped listening on port 59512
+[Parent 3692, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
